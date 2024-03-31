@@ -1,9 +1,7 @@
-function alterar() {
+function remover() {
     let container = document.getElementById('container')
+    let text = document.getElementById('filho')
 
-    let text = document.createElement('p')
-    text.innerHTML = "Elemento criado e adicionado"
-
-    container.appendChild(text)
+    container.removeChild(text)
 
 }
