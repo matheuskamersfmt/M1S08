@@ -1,9 +1,6 @@
 .element {
     color: red;
+    padding: 8px;
     background-color: blue;
-}
-
-.classe-alterada {
-    color: blue;
-    background-color: red;
+    font-weight: bold;
 }
