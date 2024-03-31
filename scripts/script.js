@@ -1,4 +1,5 @@
 function alterar() {
-    let element = document.getElementById('element')
-    element.classList.remove('element')
+    let element = document.querySelector('.op2')
+    element.setAttribute('selected', 'selected')
+
 }
