@@ -3,23 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles/style.css" rel="stylesheet"></style>
-    <title>Document</title>
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>Lista de Tarefas</title>
 </head>
 <body>
     <div id="container" class="container">
-        <h1 class="title">Exercício 6 - Adicionar Classe</h1>
-        <p id="element" class="element">Elemento</p>
-    </div>
-    <select>
-        <option selected disabled class="select">Selecione</option>
-        <option class="op1">Opção 1</option>
-        <option class="op2">Opção 2</option>
-        <option class="op3">Opção 3</option>
-    </select>
-    <div>
-        <button id="btn" style="margin-top: 8px;" onclick="alterar()">Adicionar atributo (tornar opção 2 selecionada)</button>
-        <button id="btn-remove" style="margin-top: 8px;" onclick="remover()">Remover atributo</button>
+        <h1 class="title">Exercício Ex 10 - Lista de Tarefas</h1>
+        <div class="list-content">
+            <h2 class="list-title">Minhas Tarefas</h2>
+            <input type="text" id="taskInput" placeholder="Adicionar nova tarefa">
+            <button onclick="addTask()" class="add-button">Adicionar</button>
+            <ul id="taskList" class="task-list"></ul>
+        </div>
     </div>
     <script src="./scripts/script.js"></script>
 </body>
